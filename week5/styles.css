@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+#click-here-btn {
+    margin: auto;
+    border-radius: 30px;
+    padding: 50px;
+    border-color: rgb(65, 149, 157);
+    border-width: 5px;
+    font-size: large;
+    border: solid 10px rgb(208, 235, 242);
+    cursor: pointer;
+    box-shadow: -5px 10px 19px 0px black;
+    color: rgb(134, 87, 0);
+}
+
+#click-here-btn:hover {
+    background-color: rgb(78, 205, 233);
+}
+
+body {
+    background-color: rgb(255, 237, 213);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
