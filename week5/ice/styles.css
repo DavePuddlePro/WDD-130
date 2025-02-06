@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.bottom-imgs {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.pictures {
+    border-radius: 50%;
+    border: 20px solid rgb(81, 81, 81);
+    width: auto;
+    height: 250px;
+    margin: 30px;
+}
+
+#top-img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
