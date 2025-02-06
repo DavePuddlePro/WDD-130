@@ -3,8 +3,8 @@
 
 
 :root {
-    --heading-font: "Knewave", Helvetica, sans-serif;
-    --paragraph-font: "Poppins", Helvetica, sans-serif;
+    --heading-font: "Knewave", Helvetica, sans-serif, monospace;
+    --paragraph-font: "Poppins", Helvetica, sans-serif, monospace;
 }
 
 #content {
