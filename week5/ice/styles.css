@@ -1,9 +1,10 @@
+
 body {
     margin: 0;
 }
 
 .bottom-imgs {
-    background-color: gray;
+    background-color: #c5cc66;
     display: flex;
     justify-content: center;
     gap: 100px;
@@ -14,10 +15,16 @@ body {
 
 .pictures {
     border-radius: 50%;
-    border: 20px solid rgb(81, 81, 81);
-    width: auto;
+    border: 20px solid #6b821e;
+    width: 250px;
     height: 250px;
     margin: 30px;
+    
+}
+
+.cropped {
+    height: 500px;
+    width: 1280px;
 }
 
 #top-img {
@@ -26,4 +33,9 @@ body {
     margin: 0;
     padding: 0;
     display: block;
+}
+
+.each-img {
+    width: auto;
+    height: 250px;
 }
