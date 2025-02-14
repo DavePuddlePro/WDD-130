@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+header {
+    grid-column: span 2;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 5fr;
+}
+
+.top-part {
+    grid-column: 1;
+}
+
+.side-top-part {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.mission-state {
+    grid-column: span 2;
+}
