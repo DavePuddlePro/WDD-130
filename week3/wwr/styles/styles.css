@@ -10,7 +10,7 @@
 #content {
     max-width: 1600px;
     margin: 0;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     margin: 0 auto;
 }
 
@@ -88,7 +88,7 @@ nav {
 }
 
 .hero-text {
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
 }
 
 .button-box{
@@ -159,7 +159,7 @@ main section{
 
 body {
     background-color: white;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -171,7 +171,7 @@ h2 {
 
 header {
     background-color: #219ebc;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -185,7 +185,7 @@ nav a:hover {
     background-color: #219ebc;
     color: white;
     text-decoration: none;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -208,7 +208,7 @@ nav a:hover {
 
 .msg {
     background-color: #023047;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -219,7 +219,7 @@ nav a:hover {
 footer {
     background-color: #023047;
     color: white;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     padding: 25px 50px;
     margin-top: 100px;
     display: flex;
@@ -232,24 +232,24 @@ footer {
 
 .home-title {
     color: white;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font, 'Knewave', Helvetica, sans-serif);
     font-size: 2em;
     margin-top: 10px;
 }
 
 h4 {
     color: black;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
 }
 
 .msg h2 {
     color: white;
-    font-family: var(--heading-font);
+    font-family: var(--heading-font, 'Knewave', Helvetica, sans-serif);
 }
 
 .msg p {
     color: white;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
     font-size: .8em;
     padding-bottom: 15px;
 }
@@ -274,7 +274,7 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
 }
 
 footer p a:hover {
