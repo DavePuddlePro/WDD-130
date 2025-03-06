@@ -3,8 +3,8 @@
 
 
 :root {
-    --heading-font: Knewave, Helvetica, sans-serif, monospace;
-    --paragraph-font: Poppins, Helvetica, sans-serif, monospace;
+    --heading-font: 'Knewave', Helvetica, sans-serif, monospace;
+    --paragraph-font: 'Poppins', Helvetica, sans-serif, monospace;
 }
 
 #content {
@@ -50,9 +50,13 @@ nav {
 }
 
 #hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
     z-index: -1;
+    margin: 100px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero-msg {
@@ -79,12 +83,13 @@ nav {
 
 #hero-img {
     width: 100%;
+
 }
 
 .qanda-title {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    position: absolute;
+    color: white;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .hero-text {
@@ -268,10 +273,6 @@ footer a:hover {
     width: 85px;
 }
 
-#hero-img {
-    width: 100%;
-}
-
 footer p {
     font-size: 1.2em;
     font-family: var(--paragraph-font, 'Poppins', Helvetica, sans-serif);
@@ -343,7 +344,6 @@ main section img {
 
 .bottomsection {
     display: grid;
-    grid-template-columns: repeat(10 1fr);
     margin: 10px 30px;
 }
 
