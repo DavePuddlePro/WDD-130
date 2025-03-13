@@ -123,10 +123,10 @@ nav {
     font-size: 25px;
     font-weight: 500;
     cursor: pointer;
+
 }
 
 label::before{
-    content: '+';
     margin-right: 10px;
     font-size: 30px;
     font-weight: 600;
