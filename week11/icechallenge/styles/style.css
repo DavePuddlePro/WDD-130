@@ -1,0 +1,107 @@
+html {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: rgb(242, 242, 242);
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.mainnav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.topbox {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    flex-direction: row;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* height: 50px;
+    width: auto; */
+    gap: 10px;
+    background-color: white;
+    border-width: 0px;
+    margin: 10px;
+    z-index: 2;
+}
+
+#checkboxnav {
+    position: absolute;
+    left: 240px;
+    bottom: -10px;
+}
+
+svg {
+    height: 15px;
+    width: 15px;
+    display: block;
+}
+
+input:checked {
+    box-shadow: 0 0 0 3px hotpink;
+}
+
+.sidenav:has(input:checked){
+    width: 100px;
+}
+
+.sidenav:has(input:checked) h4{
+    visibility: hidden;
+    /* position: relative;
+    left: 100px; */
+}
+
+.sidenav:has(input:checked) svg{
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+#logotext {
+margin-right: auto;
+font-weight: bolder;
+}
+
+
+
+h4 {
+    margin: 0;
+    /* visibility: hidden; */
+}
+
+.maintext {
+    margin: 10px;
+}
+
+
+
+
+
+.bottomnav {
+    display: flex;
+    margin-bottom: auto;
+    flex-direction: row;
+    border-top: 1px solid gray;
+    padding: 20px;
+}
