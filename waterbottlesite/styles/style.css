@@ -243,23 +243,24 @@ nav img {
   
   .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    bottom: 100%;
     left: 0;
     right: 0;
-    height: 100%;
+    background-color: #008CBA;
+    overflow: hidden;
     width: 100%;
-    opacity: 0;
+    height:0;
     transition: .5s ease;
-    background-color: #396E94;
   }
   
   .reviewseach1:hover .overlay {
-    opacity: 1;
+    bottom: 0;
+    height: 100%;
   }
   
   .reviewseach2:hover .overlay {
-    opacity: 1;
+    bottom: 0;
+    height: 100%;
   }
 
   .reviewtext {
