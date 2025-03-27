@@ -67,7 +67,7 @@ nav img {
 
 .hero {
     grid-row: 1/2;
-    background-image: url(../img/rsz_1bluewater-sweden-tf9iuerzxwa-unsplash.jpg);
+    background-image: url(img/rsz_1bluewater-sweden-tf9iuerzxwa-unsplash.jpg);
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
