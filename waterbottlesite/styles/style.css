@@ -164,26 +164,22 @@ nav img {
     font-size: 33px;
 }
 
-.imgbluetextbox button {
+.imgbluetextbox a {
     border: 0;
     color: white;
     background-color: #ea7921;
+    padding: 20px 40px;
     width: 200px;
     height: 50px;
     font-size: large;
     font-family: var(--paragraph-font);
     border-radius: 5px;
     box-shadow: 4px 5px 20px -7px rgb(187, 187, 187);
+    text-decoration: none;
     }
 
-.imgbluetextbox button:hover {
-    border: 0;
-    color: white;
+.imgbluetextbox a:hover {
     background-color: #772b18;
-    width: 200px;
-    height: 50px;
-    font-size: large;
-    border-radius: 5px;
 }
 
 /* Reviews Stuff */
@@ -421,12 +417,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 }
 
-.category-box1 button {
+.category-box1 a {
     border: 0;
     color: white;
     background-color: #ea7921;
-    width: 200px;
-    height: 50px;
+    padding: 10px 50px;
+    text-decoration: none;
     font-size: large;
     font-family: var(--paragraph-font);
     border-radius: 5px;
@@ -434,11 +430,11 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
 }
 
-.category-box1 button:hover {
+.category-box1 a:hover {
     background-color: #772b18;
 }
 
-.category-box2 button:hover {
+.category-box2 a:hover {
     background-color: #772b18;
 }
 
@@ -451,12 +447,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 }
 
-.category-box2 button {
+.category-box2 a {
     border: 0;
     color: white;
     background-color: #ea7921;
-    width: 200px;
-    height: 50px;
+    padding: 10px 50px;
+    text-decoration: none;
     font-size: large;
     font-family: var(--paragraph-font);
     border-radius: 5px;
