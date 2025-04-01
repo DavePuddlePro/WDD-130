@@ -46,14 +46,14 @@ nav {
     background-color: #396E94;
 }
 
-nav a {
-    padding: 100px 20px;
+.nava {
+    padding: 20px 20px;
     text-decoration: none;
     color: white;
     font-family: var(--heading-font);
 }
 
-nav a:hover {
+.nava:hover {
     background-color: #ea7921;
 }
 
@@ -431,6 +431,15 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     border-radius: 5px;
     box-shadow: 4px 5px 20px -7px rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+.category-box1 button:hover {
+    background-color: #772b18;
+}
+
+.category-box2 button:hover {
+    background-color: #772b18;
 }
 
 .category-box2 {
@@ -452,4 +461,102 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--paragraph-font);
     border-radius: 5px;
     box-shadow: 4px 5px 20px -7px rgb(187, 187, 187);
+    cursor: pointer;
+}
+
+
+/* Quiz Page */
+
+.quiz-hero {
+    background-image: url("../img/rsz_1shrey-gupta-hfgdbcqbt_0-unsplash.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+}
+
+.quiz-title {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    border-radius: 10px;
+}
+
+.quiz-title h1 {
+    font-size: 30px;
+}
+
+.quiz-title p {
+    width: 500px;
+    font-size: 18px;
+}
+
+.quiz-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.quiz-info img {
+    grid-column: 1/2;
+    margin: 30px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.quiz-info p {
+    grid-column: 2/3;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.start-quiz {
+    display: grid;
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 40px;
+    padding: 20px;
+}
+
+.start-quiz img {
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    justify-self: center;
+    border-radius: 10px;
+}
+
+.start-quiz h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    align-self: center;
+    font-size: 50px;
+}
+
+.start-quiz button {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100px;
+    width: 400px;
+    justify-self: center;
+    font-size: 30px;
+    background-color: #ea7921;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 4px 5px 20px -7px rgb(187, 187, 187);
+}
+
+.start-quiz button:hover {
+    background-color: #772b18;
 }
