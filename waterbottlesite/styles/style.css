@@ -25,6 +25,10 @@
     --nav-hover-background-color: #396E94;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     margin: 0;
     display: grid;
